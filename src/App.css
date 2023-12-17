@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+.main-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* App.css */
+
+.app {
+  text-align: center;
+}
+
+
+.schools {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 800px;
+}
+
+.schools-component {
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  border: solid black;
+  padding: 5px;
+  background: white;
+  opacity: 0.3;
+}
+.schools-component:hover,
+.schools-component:active{
+  transition: opacity .3s;
+  opacity: 1;
+}
+
+.component-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 500px;
+}
+
+.google-map {
+  height: 800px;
+}
+
